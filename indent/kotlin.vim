@@ -8,6 +8,8 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
+setlocal shiftwidth=4
+setlocal softtabstop=4
 setlocal cinoptions& cinoptions+=j1,L0
 setlocal indentexpr=GetKotlinIndent()
 setlocal indentkeys=0},0),!^F,o,O,e,<CR>
